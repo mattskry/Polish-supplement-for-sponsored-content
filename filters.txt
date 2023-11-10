@@ -1,0 +1,117 @@
+! Title: Polski dodatek dla treści sponsorowanych
+! Polish supplement for sponsored content
+! Version: 10.11.2023
+! Blocker compatibility: AdGuard
+! Partial compatibility: uBlock/AdBlock
+!
+!
+! wykop.pl
+wykop.pl##section.link-block:-abp-has(.recommend-label)
+wykop.pl##section.link-block:-abp-has(.pub-label)
+
+! spidersweb.pl
+spidersweb.pl##div.container:-abp-has(div:-abp-contains(Lokowanie produktu))
+spidersweb.pl##div.lazyload-wrapper:-abp-has(h2:-abp-contains(Strefa Samsung))
+
+! antyweb.pl
+antyweb.pl##article.flex:-abp-has(span:-abp-contains(Artykuł sponsorowany))
+antyweb.pl##div:matches-attr("data-*"):-abp-has(span:-abp-contains(Reklama))
+
+! tabletowo.pl
+tabletowo.pl##article:-abp-has(a:-abp-contains(Artykuł sponsorowany))
+
+! chip.pl
+chip.pl##section.plus
+chip.pl##div.fc-SectionTrending:-abp-has(a:-abp-contains(Lokowanie produktu))
+chip.pl##div.flex-col:-abp-has(span.fc-Badge:-abp-contains(Lokowanie produktu))
+
+
+! benchmark.pl
+benchmark.pl##div.col-xs-6:-abp-has(span.sponsored-label:-abp-contains(mat. sponsorowany))
+benchmark.pl##div.bbh-primary-compact-wrap:-abp-has(span.sponsored-label:-abp-contains(mat. sponsorowany))
+benchmark.pl##li:-abp-has(span.bse-author:-abp-contains(artykuł sponsorowany))
+benchmark.pl##li.bbh-secondary:-abp-has(span.sponsored-label:-abp-contains(mat. sponsorowany)) 
+
+! android.com.pl
+android.com.pl##section.wp-block-acp-posts-section:-abp-has(h2:-abp-contains(5G Ultra: bezkonkurencyjny internet mobilny))
+android.com.pl##article.post-box:-abp-has(div.promo-badge)
+android.com.pl##li:-abp-has(span.text-muted)
+
+! komorkomania.pl
+komorkomania.pl##span:-abp-contains(Materiał sponsorowany):nth-ancestor(2)
+
+! telepolis.pl
+telepolis.pl##section[id="tag-box"]:-abp-has(h2:-abp-contains(Plus i Polsat Box Go))
+telepolis.pl##div.col-12:-abp-has(span.tag:-abp-contains(Artykuły / Artykuł sponsorowany))
+
+! autokult.pl
+autokult.pl##span:-abp-contains(Materiał sponsorowany):nth-ancestor(2)
+
+! auto-swiat.pl
+auto-swiat.pl##a:-abp-has(span.promoLabel:-abp-contains(Materiał promocyjny))
+
+! rmf24.pl
+rmf24.pl##li.article:-abp-has(div.article-sponsored)
+
+! wyborcza.pl
+wyborcza.pl##section.col-margin:-abp-has(h3:-abp-contains(Materiały promocyjne))
+wyborcza.pl##div.index--content:-abp-has(p:-abp-contains(Materiał promocyjny))
+
+! gazeta.pl
+gazeta.pl##a:-abp-has(div.article_partner:-abp-contains(MATERIAŁ PROMOCYJNY))
+gazeta.pl##a:-abp-has(div.o-article__partnerName:-abp-contains(MATERIAŁ SPONSOROWANY))
+gazeta.pl##a:-abp-has(div.asideColumn__linkPartner:-abp-contains(MATERIAŁ SPONSOROWANY))
+
+! noizz.pl
+noizz.pl##div.itemList:-abp-has(span:-abp-contains(Materiał promocyjny))
+
+! naszemiasto.pl
+naszemiasto.pl##div.component:-abp-has(span:-abp-contains(akcja spec.))
+naszemiasto.pl##div.component:-abp-has(span:-abp-contains(mat. infor.))
+naszemiasto.pl##div[data-event-position-index="layoutsGrid__right"]:-abp-has(a[href^="/artykuly-sponsorowane"])
+
+! radiozet.pl
+radiozet.pl##div.box__item:-abp-has(div.sponsor-text-label)
+
+! wirtualnemedia.pl
+wirtualnemedia.pl##div.news-box-item:-abp-has(div.sponsor-label:-abp-contains(Materiał reklamowy))
+
+! businessinsider.com.pl
+businessinsider.com.pl##section.singleSectionHorizontal:-abp-has(div.list-title_sponsor:-abp-contains(Sekcja sponsorowana))
+
+! bankier.pl
+bankier.pl##li:-abp-has(span:-abp-contains(materiał partnera))
+
+! rp.pl
+rp.pl##span:-abp-contains(Materiał Promocyjny):nth-ancestor(4)
+
+! pb.pl
+pb.pl##div.m-home-slider__slide:-abp-has(span:-abp-contains(Materiał partnera))
+pb.pl##article.m-home-news-item:-abp-has(span:-abp-contains(materiał partnera))
+
+! gazetaprawna.pl
+gazetaprawna.pl##a:-abp-has(span.flag:-abp-contains(rtykuł partnerski))
+gazetaprawna.pl##a:-abp-has(span.flag:-abp-contains(rtykuł sponsorowany))
+gazetaprawna.pl##a:-abp-has(span.flag:-abp-contains(ateriał partnera))
+
+! wprost.pl
+wprost.pl##li.box-list-item:-abp-has(span:-abp-contains(Artykuł sponsorowany))
+
+! medonet.pl
+medonet.pl##li.default__item:-abp-has(div.teaser__label:-abp-contains(Materiał promocyjny))
+medonet.pl##li.one-plus-three__item:-abp-has(div.teaser__label:-abp-contains(Materiał promocyjny))
+
+! portal.abczdrowie.pl
+portal.abczdrowie.pl##div.sponsored-label--light-text
+portal.abczdrowie.pl##div.sponsored-label
+
+! poradnikzdrowie.pl
+poradnikzdrowie.pl##div.element:-abp-has(div.extras_component:-abp-contains(Tekst sponsorowany))
+poradnikzdrowie.pl##div.element:-abp-has(div.extras_component:-abp-contains(Materiał sponsorowany))
+
+! mamywsieci.pl
+mamywsieci.pl##div.pp-tiled-post:-abp-has(span:-abp-contains(material partnera))
+
+! mjakmama24.pl
+mjakmama24.pl##div.element:-abp-has(p:-abp-contains(Materiał sponsorowany))
+mjakmama24.pl##div.element:-abp-has(p:-abp-contains(Tekst sponsorowany))
