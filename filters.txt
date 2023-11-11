@@ -1,6 +1,6 @@
 ! Title: Polski dodatek dla treści sponsorowanych
 ! Polish supplement for sponsored content
-! Version: 10.11.2023
+! Version: 11.11.2023
 ! Blocker compatibility: AdGuard
 ! Partial compatibility: uBlock/AdBlock
 !
@@ -30,7 +30,8 @@ chip.pl##div.flex-col:-abp-has(span.fc-Badge:-abp-contains(Lokowanie produktu))
 benchmark.pl##div.col-xs-6:-abp-has(span.sponsored-label:-abp-contains(mat. sponsorowany))
 benchmark.pl##div.bbh-primary-compact-wrap:-abp-has(span.sponsored-label:-abp-contains(mat. sponsorowany))
 benchmark.pl##li:-abp-has(span.bse-author:-abp-contains(artykuł sponsorowany))
-benchmark.pl##li.bbh-secondary:-abp-has(span.sponsored-label:-abp-contains(mat. sponsorowany)) 
+benchmark.pl##li.bbh-secondary:-abp-has(span.sponsored-label:-abp-contains(mat. sponsorowany))
+benchmark.pl##div.col-sm-12:-abp-has(div.sponsored-label:-abp-contains(mat. sponsorowany)) 
 
 ! android.com.pl
 android.com.pl##section.wp-block-acp-posts-section:-abp-has(h2:-abp-contains(5G Ultra: bezkonkurencyjny internet mobilny))
