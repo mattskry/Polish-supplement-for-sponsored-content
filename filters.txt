@@ -1,6 +1,6 @@
 ! Title: Polski dodatek dla treści sponsorowanych
 ! Polish supplement for sponsored content
-! Version: 11.11.2023
+! Version: 12.12.2023
 ! Blocker compatibility: AdGuard
 ! Partial compatibility: uBlock/AdBlock
 !
@@ -57,6 +57,8 @@ rmf24.pl##li.article:-abp-has(div.article-sponsored)
 ! wyborcza.pl
 wyborcza.pl##section.col-margin:-abp-has(h3:-abp-contains(Materiały promocyjne))
 wyborcza.pl##div.index--content:-abp-has(p:-abp-contains(Materiał promocyjny))
+wyborcza.pl##div.text--embed:-abp-has(p:-abp-contains(Reklama))
+
 
 ! gazeta.pl
 gazeta.pl##a:-abp-has(div.article_partner:-abp-contains(MATERIAŁ PROMOCYJNY))
