@@ -57,6 +57,7 @@ rmf24.pl##li.article:-abp-has(div.article-sponsored)
 ! wyborcza.pl
 wyborcza.pl##section.col-margin:-abp-has(h3:-abp-contains(Materiały promocyjne))
 wyborcza.pl##div.index--content:-abp-has(p:-abp-contains(Materiał promocyjny))
+wyborcza.pl##div.variant-2:-abp-has(span.index--tag:-abp-contains(Materiał promocyjny))
 wyborcza.pl##div.text--embed:-abp-has(p:-abp-contains(Reklama))
 wyborcza.pl##li.index--list-item:-abp-has(div.index--tag:-abp-contains(Materiał promocyjny))
 wyborcza.pl##li.index--list-item:-abp-has(div.index--tag:-abp-contains(Ogłoszenie płatne))
