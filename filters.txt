@@ -1,6 +1,6 @@
 ! Title: Polski dodatek dla treści sponsorowanych
 ! Polish supplement for sponsored content
-! Version: 20.12.2023
+! Version: 22.12.2023
 ! Blocker compatibility: AdGuard
 ! Partial compatibility: uBlock/AdBlock
 !
@@ -51,6 +51,11 @@ autokult.pl##span:-abp-contains(Materiał sponsorowany):nth-ancestor(2)
 ! auto-swiat.pl
 auto-swiat.pl##a:-abp-has(span.promoLabel:-abp-contains(Materiał promocyjny))
 
+! onet.pl
+onet.pl##div[data-name="wide_left"]:-abp-has(span:-abp-contains(Polecane oferty))
+onet.pl##section[data-section="oferty3"]:-abp-has(span:-abp-contains(Oferty))
+onet.pl##section[data-section="chpolecane-naluzie"]:-abp-has(span:-abp-contains(Oferty))
+
 ! rmf24.pl
 rmf24.pl##li.article:-abp-has(div.article-sponsored)
 
@@ -64,7 +69,6 @@ wyborcza.pl##li.index--list-item:-abp-has(div.index--tag:-abp-contains(Materiał
 wyborcza.pl##li.index--list-item:-abp-has(div.index--tag:-abp-contains(Ogłoszenie płatne))
 wyborcza.pl##li.index2--list-item:-abp-has(div.index--tag:-abp-contains(Materiał promocyjny))
 wyborcza.pl##li.index2--list-item:-abp-has(div.index--tag:-abp-contains(Ogłoszenie))
-
 
 ! gazeta.pl
 gazeta.pl##a:-abp-has(div.article_partner:-abp-contains(MATERIAŁ PROMOCYJNY))
